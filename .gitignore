@@ -1,0 +1,16 @@
+node_modules/
+dist/
+coverage/
+.env
+.env.*
+*.pem
+*.key
+id_rsa*
+known_hosts*
+config.json
+*.cfg
+.DS_Store
+.cache/
+*.pub
+*.enrollment-pending.json
+*.tmp
