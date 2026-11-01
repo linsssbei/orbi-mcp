@@ -1,0 +1,25 @@
+{
+  "name": "orbi-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local, SSH-backed MCP tools for a validated NETGEAR Orbi firmware",
+  "license": "UNLICENSED",
+  "type": "module",
+  "bin": { "orbi-mcp": "dist/src/cli.js" },
+  "files": ["dist/src", "README.md", "docs", "TODO.md"],
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node --test dist/test/*.test.js",
+    "check": "tsc --noEmit",
+    "start": "node dist/src/cli.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "typescript": "~5.9.3"
+  }
+}
