@@ -152,6 +152,11 @@ See [remaining work](TODO.md) for delivery order and the
 entry, audited read capability and unresolved interface. Candidate coverage is
 not a claim of model support or a promise to implement every shared template.
 
+The [research archive](docs/research/README.md) consolidates the original
+router audit, firmware analysis, SSH enrollment investigation and historical
+helper sources. Its index distinguishes versioned notes from local-only raw
+evidence and firmware artifacts.
+
 ## Development
 
 ```sh
@@ -165,7 +170,9 @@ Tests use synthetic metrics and a temporary local TLS server; `openssl` must
 be available for those tests. They do not contact a home router, enroll keys,
 reboot or change network settings. CI runs the same suite on macOS and Linux.
 
-The repository contains source, synthetic tests, package lock, CI and usage
-notes. Firmware images, extracted filesystems, private evidence, credentials,
-keys and runtime configuration are excluded. The package is marked private;
-GitHub publication and an open-source license can be selected separately.
+The repository contains source, synthetic tests, package lock, CI, usage
+notes and historical research sources. Raw firmware, extracted filesystems
+and private device evidence in the local research archive are ignored by Git;
+the entire research archive is excluded from the npm package. Credentials,
+keys and runtime configuration remain excluded. The package is marked private
+and UNLICENSED.

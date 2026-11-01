@@ -1,0 +1,16 @@
+{
+  "name": "local-orbi-tools",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local netgear.js setup for the Orbi RBR850",
+  "scripts": {
+    "auth": "node router.cjs auth",
+    "discover": "node router.cjs discover",
+    "info": "node router.cjs info",
+    "devices": "node router.cjs devices",
+    "config": "node router.cjs config"
+  },
+  "dependencies": {
+    "netgear": "5.2.0"
+  }
+}
