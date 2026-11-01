@@ -1,0 +1,25 @@
+{
+  "retrieved_utc": "2026-10-27T17:00:12.082611+00:00",
+  "firmware_url": "https://www.downloads.netgear.com/files/GDC/RBK852/RBR850-V7.2.8.8.zip",
+  "gpl_index_url": "https://www.downloads.netgear.com/files/GDC/2649_GPLv1.html",
+  "source_url": "https://www.downloads.netgear.com/files/GPL/RBK850_7.2.8.8_GPL.tar",
+  "source_http_status": 404,
+  "source_downloaded": false,
+  "artifacts": [
+    {
+      "path": "downloads/RBR850-V7.2.8.8.zip",
+      "bytes": 52136269,
+      "sha256": "e6a43045c6cd044d433a95e7d1c9b73f8df46e2111b57c744268e9d20795ad2f"
+    },
+    {
+      "path": "firmware/RBR850-V7.2.8.8_5.1.24.chk",
+      "bytes": 56103830,
+      "sha256": "7e8d4334c15002b06490eafbf85ac1d356a45df9d201fd02136a1da76eec6ee2"
+    },
+    {
+      "path": "volumes/rootfs.squashfs",
+      "bytes": 47530469,
+      "sha256": "1c5052c2b00f1572eb1fbe1b4d0429056c9d6d591a8c641f237aa076606c193d"
+    }
+  ]
+}

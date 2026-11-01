@@ -1,0 +1,234 @@
+{
+  "excluded_names": [
+    ".DS_Store",
+    ".venv",
+    "__pycache__",
+    "node_modules"
+  ],
+  "import_date": "2026-11-01",
+  "notes": [
+    "No router requests were made.",
+    "Raw files are byte-identical copies; adapted Markdown originals are retained locally.",
+    "Live evidence, firmware, reference downloads and generated inventories are local-only.",
+    "Research scripts are archived unchanged; use the current MCP CLI for supported operations."
+  ],
+  "schema_version": 1,
+  "source_locations": {
+    "firmware-rbr850-7.2.8.8": "research/orbi-rbr850-7.2.8.8",
+    "router-audit": "orbi-tools"
+  },
+  "source_snapshots": {
+    "firmware-rbr850-7.2.8.8": {
+      "bytes": 381927333,
+      "files": 5424,
+      "source_tree_sha256": "5a3bba98655308183b696927fbedbd9c2f3ee31e27058d085da85f0a1c1a9769"
+    },
+    "router-audit": {
+      "bytes": 81827,
+      "files": 9,
+      "source_tree_sha256": "1a6e7f527ed6182d1d4adcc155b6fa282baab80a9cb3109a9dc1dff16f3ea108"
+    }
+  },
+  "versioned_files": [
+    {
+      "adapted": true,
+      "imported_sha256": "bba349d2a0ff11d073185701f331025b76accb324db64461ae3a84cf3a71f3a8",
+      "path": "docs/research/firmware-rbr850-7.2.8.8/DROPBEAR-PERSISTENCE.md",
+      "source_group": "firmware-rbr850-7.2.8.8",
+      "source_path": "DROPBEAR-PERSISTENCE.md",
+      "source_sha256": "c873f8b00c4a33fa0e13cdee5441d19ee6472856958ad600af3ace2f7e294e6b"
+    },
+    {
+      "adapted": true,
+      "imported_sha256": "291cf58fa467477c37e625afe4ed87e8a2d2d61285868c0956f2b11f2a7a7b5d",
+      "path": "docs/research/firmware-rbr850-7.2.8.8/README.md",
+      "source_group": "firmware-rbr850-7.2.8.8",
+      "source_path": "README.md",
+      "source_sha256": "87eeef0e2d9250f396389d5439d8feaca0efd43b117ae83d46ee1c23f304e512"
+    },
+    {
+      "adapted": true,
+      "imported_sha256": "67181bd25f40e0b7a7a3217bd1f07d6eb5b5a0c8b6481c9b1f906d1f83f99099",
+      "path": "docs/research/firmware-rbr850-7.2.8.8/SEAL-SSH-ENROLLMENT.md",
+      "source_group": "firmware-rbr850-7.2.8.8",
+      "source_path": "SEAL-SSH-ENROLLMENT.md",
+      "source_sha256": "5bc8479430708fcb61ec1056788894f609d1cdf8b8ef50ee8e57e5cb219e6313"
+    },
+    {
+      "adapted": true,
+      "imported_sha256": "e68a1af51c9d8c0b51ca78ab03365ca00d2774bef820b3707e132435360313af",
+      "path": "docs/research/firmware-rbr850-7.2.8.8/SHELL-ANALYSIS.md",
+      "source_group": "firmware-rbr850-7.2.8.8",
+      "source_path": "SHELL-ANALYSIS.md",
+      "source_sha256": "3e9d15e19f7960b8c31895424460b4a8c9d0195dba18abeaab04c7479ed042d6"
+    },
+    {
+      "adapted": false,
+      "imported_sha256": "9b5f408a6c307f33453f5efae7d6332a253a869d14208e99a000cfca56a06feb",
+      "path": "docs/research/firmware-rbr850-7.2.8.8/activate_ssh.py",
+      "source_group": "firmware-rbr850-7.2.8.8",
+      "source_path": "activate_ssh.py",
+      "source_sha256": "9b5f408a6c307f33453f5efae7d6332a253a869d14208e99a000cfca56a06feb"
+    },
+    {
+      "adapted": false,
+      "imported_sha256": "527c4fe09960dfa8f89847ac3d018657f7850d72a763b1f40678597ba3976556",
+      "path": "docs/research/firmware-rbr850-7.2.8.8/activation_packet.py",
+      "source_group": "firmware-rbr850-7.2.8.8",
+      "source_path": "activation_packet.py",
+      "source_sha256": "527c4fe09960dfa8f89847ac3d018657f7850d72a763b1f40678597ba3976556"
+    },
+    {
+      "adapted": false,
+      "imported_sha256": "b39d6ad4b10f10ac368358ebba128f90c2a7052c0d2f3090ab75ddef9f71ec04",
+      "path": "docs/research/firmware-rbr850-7.2.8.8/download-manifest.json",
+      "source_group": "firmware-rbr850-7.2.8.8",
+      "source_path": "download-manifest.json",
+      "source_sha256": "b39d6ad4b10f10ac368358ebba128f90c2a7052c0d2f3090ab75ddef9f71ec04"
+    },
+    {
+      "adapted": false,
+      "imported_sha256": "52dc78317a887ec420f4bd6a2714a80bdc14dc4659a53a6e13ed12394410d965",
+      "path": "docs/research/firmware-rbr850-7.2.8.8/enroll_seal_key.py",
+      "source_group": "firmware-rbr850-7.2.8.8",
+      "source_path": "enroll_seal_key.py",
+      "source_sha256": "52dc78317a887ec420f4bd6a2714a80bdc14dc4659a53a6e13ed12394410d965"
+    },
+    {
+      "adapted": false,
+      "imported_sha256": "d56c271e6e1fc3c5fec09292299a2d4ce0a5dd79e580168bc4c3105128d0d5da",
+      "path": "docs/research/firmware-rbr850-7.2.8.8/evidence/build_ui_inventory.py",
+      "source_group": "firmware-rbr850-7.2.8.8",
+      "source_path": "evidence/build_ui_inventory.py",
+      "source_sha256": "d56c271e6e1fc3c5fec09292299a2d4ce0a5dd79e580168bc4c3105128d0d5da"
+    },
+    {
+      "adapted": false,
+      "imported_sha256": "4db4149981f9e524d215183141d50d4845996fc27ba90bb1be1f44925deab62d",
+      "path": "docs/research/firmware-rbr850-7.2.8.8/evidence/capability-audit-2026-10-28/build_matrix.py",
+      "source_group": "firmware-rbr850-7.2.8.8",
+      "source_path": "evidence/capability-audit-2026-10-28/build_matrix.py",
+      "source_sha256": "4db4149981f9e524d215183141d50d4845996fc27ba90bb1be1f44925deab62d"
+    },
+    {
+      "adapted": false,
+      "imported_sha256": "bce7d956b3ee5812f4373f6f5e631279ec23f59db1d2b8ac0c0263bfd40d6b93",
+      "path": "docs/research/firmware-rbr850-7.2.8.8/extract_firmware.py",
+      "source_group": "firmware-rbr850-7.2.8.8",
+      "source_path": "extract_firmware.py",
+      "source_sha256": "bce7d956b3ee5812f4373f6f5e631279ec23f59db1d2b8ac0c0263bfd40d6b93"
+    },
+    {
+      "adapted": false,
+      "imported_sha256": "fa1decb1c0e082a0d9685effcb3dd8184cbc49410b77aa44eedef5b1e999abf5",
+      "path": "docs/research/firmware-rbr850-7.2.8.8/inspect_lua51.py",
+      "source_group": "firmware-rbr850-7.2.8.8",
+      "source_path": "inspect_lua51.py",
+      "source_sha256": "fa1decb1c0e082a0d9685effcb3dd8184cbc49410b77aa44eedef5b1e999abf5"
+    },
+    {
+      "adapted": false,
+      "imported_sha256": "2fb5d41610e0c9240376858e26f614a163df8d7b377f32fbde32aaa72981527e",
+      "path": "docs/research/firmware-rbr850-7.2.8.8/offline_probe.py",
+      "source_group": "firmware-rbr850-7.2.8.8",
+      "source_path": "offline_probe.py",
+      "source_sha256": "2fb5d41610e0c9240376858e26f614a163df8d7b377f32fbde32aaa72981527e"
+    },
+    {
+      "adapted": false,
+      "imported_sha256": "bcbef3f60d3457e1eb9891123cfce990671b6ab2e68c9958fccbdc3e55732151",
+      "path": "docs/research/firmware-rbr850-7.2.8.8/offline_seal_probe.py",
+      "source_group": "firmware-rbr850-7.2.8.8",
+      "source_path": "offline_seal_probe.py",
+      "source_sha256": "bcbef3f60d3457e1eb9891123cfce990671b6ab2e68c9958fccbdc3e55732151"
+    },
+    {
+      "adapted": false,
+      "imported_sha256": "918b120b7a2d214cffe6a0bbce96d44dda68e5ef849fcd2d5e1d3014d858d215",
+      "path": "docs/research/firmware-rbr850-7.2.8.8/requirements-emulation.txt",
+      "source_group": "firmware-rbr850-7.2.8.8",
+      "source_path": "requirements-emulation.txt",
+      "source_sha256": "918b120b7a2d214cffe6a0bbce96d44dda68e5ef849fcd2d5e1d3014d858d215"
+    },
+    {
+      "adapted": false,
+      "imported_sha256": "11bfa8e19b8e03debad0c1bbce0487110d43ab7bc7280260071b72a46d08b3d2",
+      "path": "docs/research/firmware-rbr850-7.2.8.8/requirements-inspection.txt",
+      "source_group": "firmware-rbr850-7.2.8.8",
+      "source_path": "requirements-inspection.txt",
+      "source_sha256": "11bfa8e19b8e03debad0c1bbce0487110d43ab7bc7280260071b72a46d08b3d2"
+    },
+    {
+      "adapted": false,
+      "imported_sha256": "81c570a7db14dc03d12b65c091e2fe5bf4d04219b947b24bda2af6d3bf4ae029",
+      "path": "docs/research/firmware-rbr850-7.2.8.8/test_enroll_seal_key.py",
+      "source_group": "firmware-rbr850-7.2.8.8",
+      "source_path": "test_enroll_seal_key.py",
+      "source_sha256": "81c570a7db14dc03d12b65c091e2fe5bf4d04219b947b24bda2af6d3bf4ae029"
+    },
+    {
+      "adapted": false,
+      "imported_sha256": "3172e16a082b2e13ac12ca4cf104b17a8cf49f74dbe68335b97bab782d49dc2f",
+      "path": "docs/research/router-audit/.gitignore",
+      "source_group": "router-audit",
+      "source_path": ".gitignore",
+      "source_sha256": "3172e16a082b2e13ac12ca4cf104b17a8cf49f74dbe68335b97bab782d49dc2f"
+    },
+    {
+      "adapted": true,
+      "imported_sha256": "6d30af52632b2c820ca5cde572eb9fc5ec651d2370902d480b8d83303dee61ac",
+      "path": "docs/research/router-audit/README.md",
+      "source_group": "router-audit",
+      "source_path": "README.md",
+      "source_sha256": "48c00a313563d6934b0bf56f6b285c9c45f84c571129a35f6d88e817cde7bc81"
+    },
+    {
+      "adapted": false,
+      "imported_sha256": "bc5e2f8d381d823f274898a1c49888254afeea80b035956e9d7af78772a3213c",
+      "path": "docs/research/router-audit/disable-iot.py",
+      "source_group": "router-audit",
+      "source_path": "disable-iot.py",
+      "source_sha256": "bc5e2f8d381d823f274898a1c49888254afeea80b035956e9d7af78772a3213c"
+    },
+    {
+      "adapted": true,
+      "imported_sha256": "4bb285d7fc6e2ba9aaf9cd41d8c2a23176643d0a1d30a21bfafae53da0c1d343",
+      "path": "docs/research/router-audit/docs/router-access.md",
+      "source_group": "router-audit",
+      "source_path": "docs/router-access.md",
+      "source_sha256": "55ba860502a3e53be34f1168b6bcf303d9578eca5431a7ead46049b7e8d580bc"
+    },
+    {
+      "adapted": true,
+      "imported_sha256": "0a82ac2d0a5e2bf37168faf95e54dd9c85d40a90876305068168b6fce8e3b386",
+      "path": "docs/research/router-audit/docs/router-capabilities.md",
+      "source_group": "router-audit",
+      "source_path": "docs/router-capabilities.md",
+      "source_sha256": "b1389e1e6b610fc4e17f27b3b4c6e39ceb8a84ada3a9596328662b57c47e4576"
+    },
+    {
+      "adapted": false,
+      "imported_sha256": "dcfdb66427d55374a4a30222b35e799418afd40b56b1634dca0967c4a39d2c2e",
+      "path": "docs/research/router-audit/package-lock.json",
+      "source_group": "router-audit",
+      "source_path": "package-lock.json",
+      "source_sha256": "dcfdb66427d55374a4a30222b35e799418afd40b56b1634dca0967c4a39d2c2e"
+    },
+    {
+      "adapted": false,
+      "imported_sha256": "0e459b7526086cec93e1394d2e96f36c939a8378d65f6f047407aaab32524d79",
+      "path": "docs/research/router-audit/package.json",
+      "source_group": "router-audit",
+      "source_path": "package.json",
+      "source_sha256": "0e459b7526086cec93e1394d2e96f36c939a8378d65f6f047407aaab32524d79"
+    },
+    {
+      "adapted": false,
+      "imported_sha256": "10b31af6793002d1917a04a88328fbcf2d5ceff7f799a4cf72a895bcb10679ee",
+      "path": "docs/research/router-audit/router.cjs",
+      "source_group": "router-audit",
+      "source_path": "router.cjs",
+      "source_sha256": "10b31af6793002d1917a04a88328fbcf2d5ceff7f799a4cf72a895bcb10679ee"
+    }
+  ]
+}

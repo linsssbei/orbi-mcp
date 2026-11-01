@@ -1,0 +1,4 @@
+-r requirements-inspection.txt
+unicorn==2.1.4
+pyelftools==0.33
+lupa==2.8

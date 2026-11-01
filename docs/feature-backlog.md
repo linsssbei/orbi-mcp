@@ -17,6 +17,10 @@ It is not a promise to implement every shared template. A documented exclusion
 can close a research item without adding a tool. Multiple capabilities may
 share one MCP tool.
 
+The original reports and helper sources are now in the
+[research archive](research/README.md). Raw device evidence and firmware are
+local-only; this backlog remains usable without those artifacts.
+
 A prior successful router read is **not** an implemented MCP feature. Reading
 a flag is also not validation of a setter or enforcement. GUI parity means
 the underlying management operation, not rebuilding the router web UI.
